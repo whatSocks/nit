@@ -15,7 +15,6 @@ CREATE CONSTRAINT ON (n:Commit) ASSERT n.sha IS UNIQUE;
 CREATE CONSTRAINT ON (n:Author) ASSERT n.name IS UNIQUE;
 
 //creating the commits
-//first parent
 USING PERIODIC COMMIT
 LOAD CSV
 FROM 'file:${PATH_TO_CSV}/git_rev_list.csv' 
