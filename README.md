@@ -1,7 +1,10 @@
 nit
 ===
 
-git log --neo (not really, I couldn't sleep so I made this.
+First type in `git log --neo`
+
+Actually, no. That was a joke. 
+I couldn't sleep so I made this.
 
 place the sh file in a git repo, make sure your local db is turned on, and press `sh make_cyp.sh`.
 
@@ -13,7 +16,6 @@ Make sure to edit the .sh file to point to your appropriate whosiwhatsits:
 PATH_TO_CSV=$(dirname $(greadlink -f '$0'))
 NEO_DB=your/path/to/neo
 ```
-)
 
 but for realz bro, this repo needs a lot of work. I should just stick to 
 
