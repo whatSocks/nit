@@ -6,7 +6,9 @@ First type in `git log --neo`
 Actually, no. That was a joke. 
 I couldn't sleep so I made this.
 
-place the sh file in a git repo, make sure your local db is turned on, and press `sh make_cyp.sh`.
+if you haven't done so already, `brew install coreutils`.
+
+place the sh file in a git repo, make sure your local db is turned on, and press the `sh make_cyp.sh` button on your keybpard.
 
 That'll create some Neo4j .cyp that will pump your git commit and author logs into your local db via the neo4j-shell. 
 
