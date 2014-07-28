@@ -15,7 +15,6 @@ That'll create some Neo4j .cyp that will pump your git commit and author logs in
 Make sure to edit the .sh file to point to your appropriate whosiwhatsits:
 
 ```
-PATH_TO_CSV=$(dirname $(greadlink -f '$0'))
 NEO_DB=your/path/to/neo
 ```
 
