@@ -15,6 +15,12 @@ NEO_DB=your/path/to/neo
 ```
 )
 
+but for realz bro, this repo needs a lot of work. I should just stick to 
+```
+git log --graph --decorate --oneline --all```
+
+but then I'd be able to sleep. 
+
 mapping git commits and authors into a neo4j db
 
 ![webstack](graph_pic.png)
