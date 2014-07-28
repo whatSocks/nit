@@ -16,8 +16,8 @@ NEO_DB=your/path/to/neo
 )
 
 but for realz bro, this repo needs a lot of work. I should just stick to 
-```
-git log --graph --decorate --oneline --all```
+
+`git log --graph --decorate --oneline --all`
 
 but then I'd be able to sleep. 
 
